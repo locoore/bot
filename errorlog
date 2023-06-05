@@ -1,0 +1,399 @@
+2023-05-17 09:29:27,464: Error running WSGI application
+2023-05-17 09:29:27,467: ModuleNotFoundError: No module named 'linebot'
+2023-05-17 09:29:27,467:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-17 09:29:27,468:     from flask_app import app as application  # noqa
+2023-05-17 09:29:27,468: 
+2023-05-17 09:29:27,468:   File "/home/Ciga/mysite/flask_app.py", line 3, in <module>
+2023-05-17 09:29:27,468:     from linebot import (
+2023-05-17 09:29:27,468: ***************************************************
+2023-05-17 09:29:27,468: If you're seeing an import error and don't know why,
+2023-05-17 09:29:27,468: we have a dedicated help page to help you debug: 
+2023-05-17 09:29:27,469: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-17 09:29:27,469: ***************************************************
+2023-05-17 09:29:29,964: Error running WSGI application
+2023-05-17 09:29:29,964: ModuleNotFoundError: No module named 'linebot'
+2023-05-17 09:29:29,964:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-17 09:29:29,965:     from flask_app import app as application  # noqa
+2023-05-17 09:29:29,965: 
+2023-05-17 09:29:29,965:   File "/home/Ciga/mysite/flask_app.py", line 3, in <module>
+2023-05-17 09:29:29,965:     from linebot import (
+2023-05-17 09:29:29,965: ***************************************************
+2023-05-17 09:29:29,965: If you're seeing an import error and don't know why,
+2023-05-17 09:29:29,965: we have a dedicated help page to help you debug: 
+2023-05-17 09:29:29,965: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-17 09:29:29,966: ***************************************************
+2023-05-17 09:29:31,930: Error running WSGI application
+2023-05-17 09:29:31,931: ModuleNotFoundError: No module named 'linebot'
+2023-05-17 09:29:31,931:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-17 09:29:31,931:     from flask_app import app as application  # noqa
+2023-05-17 09:29:31,931: 
+2023-05-17 09:29:31,932:   File "/home/Ciga/mysite/flask_app.py", line 3, in <module>
+2023-05-17 09:29:31,932:     from linebot import (
+2023-05-17 09:29:31,932: ***************************************************
+2023-05-17 09:29:31,932: If you're seeing an import error and don't know why,
+2023-05-17 09:29:31,932: we have a dedicated help page to help you debug: 
+2023-05-17 09:29:31,932: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-17 09:29:31,932: ***************************************************
+2023-05-24 07:29:42,896: OSError: write error
+2023-05-24 08:10:54,267: Error running WSGI application
+2023-05-24 08:10:54,272:   File "/home/Ciga/mysite/flask_app.py", line 49
+2023-05-24 08:10:54,273: 
+2023-05-24 08:10:54,273:     reply_msg_content = ['text', 'Goodbye!']
+2023-05-24 08:10:54,273: 
+2023-05-24 08:10:54,273:     ^^^^^^^^^^^^^^^^^
+2023-05-24 08:10:54,273: 
+2023-05-24 08:10:54,274: IndentationError: expected an indented block after 'if' statement on line 48
+2023-05-24 08:10:54,274:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-24 08:10:54,274:     from flask_app import app as application  # noqa
+2023-05-24 08:10:54,274: ***************************************************
+2023-05-24 08:10:54,274: If you're seeing an import error and don't know why,
+2023-05-24 08:10:54,274: we have a dedicated help page to help you debug: 
+2023-05-24 08:10:54,275: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-24 08:10:54,275: ***************************************************
+2023-05-24 08:11:17,593: Error running WSGI application
+2023-05-24 08:11:17,594:   File "/home/Ciga/mysite/flask_app.py", line 49
+2023-05-24 08:11:17,594: 
+2023-05-24 08:11:17,594:     reply_msg_content = ['text', 'Goodbye!']
+2023-05-24 08:11:17,594: 
+2023-05-24 08:11:17,594:     ^^^^^^^^^^^^^^^^^
+2023-05-24 08:11:17,595: 
+2023-05-24 08:11:17,595: IndentationError: expected an indented block after 'if' statement on line 48
+2023-05-24 08:11:17,595:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-24 08:11:17,595:     from flask_app import app as application  # noqa
+2023-05-24 08:11:17,595: ***************************************************
+2023-05-24 08:11:17,595: If you're seeing an import error and don't know why,
+2023-05-24 08:11:17,596: we have a dedicated help page to help you debug: 
+2023-05-24 08:11:17,596: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-24 08:11:17,596: ***************************************************
+2023-05-24 08:12:36,530: Error running WSGI application
+2023-05-24 08:12:36,531:   File "/home/Ciga/mysite/flask_app.py", line 49
+2023-05-24 08:12:36,531: 
+2023-05-24 08:12:36,531:     reply_msg_content = ['text', 'Goodbye!']
+2023-05-24 08:12:36,531: 
+2023-05-24 08:12:36,531:     ^^^^^^^^^^^^^^^^^
+2023-05-24 08:12:36,531: 
+2023-05-24 08:12:36,532: IndentationError: expected an indented block after 'if' statement on line 48
+2023-05-24 08:12:36,532:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-24 08:12:36,532:     from flask_app import app as application  # noqa
+2023-05-24 08:12:36,532: ***************************************************
+2023-05-24 08:12:36,532: If you're seeing an import error and don't know why,
+2023-05-24 08:12:36,532: we have a dedicated help page to help you debug: 
+2023-05-24 08:12:36,532: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-24 08:12:36,532: ***************************************************
+2023-05-24 08:12:38,157: Error running WSGI application
+2023-05-24 08:12:38,157:   File "/home/Ciga/mysite/flask_app.py", line 49
+2023-05-24 08:12:38,157: 
+2023-05-24 08:12:38,157:     reply_msg_content = ['text', 'Goodbye!']
+2023-05-24 08:12:38,158: 
+2023-05-24 08:12:38,158:     ^^^^^^^^^^^^^^^^^
+2023-05-24 08:12:38,158: 
+2023-05-24 08:12:38,158: IndentationError: expected an indented block after 'if' statement on line 48
+2023-05-24 08:12:38,158:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-24 08:12:38,158:     from flask_app import app as application  # noqa
+2023-05-24 08:12:38,158: ***************************************************
+2023-05-24 08:12:38,158: If you're seeing an import error and don't know why,
+2023-05-24 08:12:38,158: we have a dedicated help page to help you debug: 
+2023-05-24 08:12:38,158: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-24 08:12:38,159: ***************************************************
+2023-05-24 08:13:57,631: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 33, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 43, in handle_message
+    reply_msg_content = reply_msg(msg)
+NameError: name 'reply_msg' is not defined
+2023-05-24 08:26:49,196: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 33, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+  File "/home/Ciga/mysite/flask_app.py", line 48, in handle_message
+    reply_msg_content = reply_msg(msg)
+NameError: name 'reply_msg' is not defined
+2023-05-24 08:41:52,731: error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-05-24 08:41:52,732: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 35, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 48, in handle_message
+    chat_output = openai.ChatCompletion.create(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: <empty message>
+2023-05-24 08:51:20,091: error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-05-24 08:51:20,092: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 35, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 48, in handle_message
+    chat_output = openai.ChatCompletion.create(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: <empty message>
+2023-05-24 08:52:59,332: error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-05-24 08:52:59,333: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 35, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 48, in handle_message
+    chat_output = openai.ChatCompletion.create(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: <empty message>
+2023-05-24 08:55:02,860: error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-05-24 08:55:02,860: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 68, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 92, in handle_message
+    chat_output = openai.ChatCompletion.create(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: <empty message>
+2023-05-24 08:56:07,874: OSError: write error
+2023-06-04 16:04:32,202: Error running WSGI application
+2023-06-04 16:04:32,207: TypeError: can only concatenate str (not "NoneType") to str
+2023-06-04 16:04:32,207:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:04:32,207:     from flask_app import app as application  # noqa
+2023-06-04 16:04:32,207: 
+2023-06-04 16:04:32,208:   File "/home/Ciga/mysite/flask_app.py", line 18, in <module>
+2023-06-04 16:04:32,208:     line_bot_api = LineBotApi(os.getenv("ZXhZKlg468GHg9IjnjSEi8BHAPnrsySNFpEbFgBScxAyA0bRS9wJHEfD6lu79twWSOgJbDSYBErsxsP863sxtaJVSVuD4O6+0tzkG6NCPxQdbcO/eIMTPImKzHzLIPwKBdulvhJoSiMp3lfLpJdgaAdB04t89/1O/w1cDnyilFU="))
+2023-06-04 16:04:32,208: 
+2023-06-04 16:04:32,208:   File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/api.py", line 70, in __init__
+2023-06-04 16:04:32,208:     'Authorization': 'Bearer ' + channel_access_token,
+2023-06-04 16:04:32,208: ***************************************************
+2023-06-04 16:04:32,208: If you're seeing an import error and don't know why,
+2023-06-04 16:04:32,208: we have a dedicated help page to help you debug: 
+2023-06-04 16:04:32,208: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:04:32,208: ***************************************************
+2023-06-04 16:04:33,416: Error running WSGI application
+2023-06-04 16:04:33,417: TypeError: can only concatenate str (not "NoneType") to str
+2023-06-04 16:04:33,417:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:04:33,417:     from flask_app import app as application  # noqa
+2023-06-04 16:04:33,417: 
+2023-06-04 16:04:33,417:   File "/home/Ciga/mysite/flask_app.py", line 18, in <module>
+2023-06-04 16:04:33,418:     line_bot_api = LineBotApi(os.getenv("ZXhZKlg468GHg9IjnjSEi8BHAPnrsySNFpEbFgBScxAyA0bRS9wJHEfD6lu79twWSOgJbDSYBErsxsP863sxtaJVSVuD4O6+0tzkG6NCPxQdbcO/eIMTPImKzHzLIPwKBdulvhJoSiMp3lfLpJdgaAdB04t89/1O/w1cDnyilFU="))
+2023-06-04 16:04:33,418: 
+2023-06-04 16:04:33,418:   File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/api.py", line 70, in __init__
+2023-06-04 16:04:33,418:     'Authorization': 'Bearer ' + channel_access_token,
+2023-06-04 16:04:33,418: ***************************************************
+2023-06-04 16:04:33,418: If you're seeing an import error and don't know why,
+2023-06-04 16:04:33,419: we have a dedicated help page to help you debug: 
+2023-06-04 16:04:33,419: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:04:33,419: ***************************************************
+2023-06-04 16:07:23,767: Error running WSGI application
+2023-06-04 16:07:23,859: TypeError: can only concatenate str (not "NoneType") to str
+2023-06-04 16:07:23,860:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:07:23,860:     from flask_app import app as application  # noqa
+2023-06-04 16:07:23,860: 
+2023-06-04 16:07:23,860:   File "/home/Ciga/mysite/flask_app.py", line 18, in <module>
+2023-06-04 16:07:23,860:     line_bot_api = LineBotApi(os.getenv('ZXhZKlg468GHg9IjnjSEi8BHAPnrsySNFpEbFgBScxAyA0bRS9wJHEfD6lu79twWSOgJbDSYBErsxsP863sxtaJVSVuD4O6+0tzkG6NCPxQdbcO/eIMTPImKzHzLIPwKBdulvhJoSiMp3lfLpJdgaAdB04t89/1O/w1cDnyilFU='))
+2023-06-04 16:07:23,860: 
+2023-06-04 16:07:23,860:   File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/api.py", line 70, in __init__
+2023-06-04 16:07:23,860:     'Authorization': 'Bearer ' + channel_access_token,
+2023-06-04 16:07:23,860: ***************************************************
+2023-06-04 16:07:23,861: If you're seeing an import error and don't know why,
+2023-06-04 16:07:23,861: we have a dedicated help page to help you debug: 
+2023-06-04 16:07:23,861: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:07:23,861: ***************************************************
+2023-06-04 16:07:27,468: Error running WSGI application
+2023-06-04 16:07:27,469: TypeError: can only concatenate str (not "NoneType") to str
+2023-06-04 16:07:27,469:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:07:27,469:     from flask_app import app as application  # noqa
+2023-06-04 16:07:27,469: 
+2023-06-04 16:07:27,470:   File "/home/Ciga/mysite/flask_app.py", line 18, in <module>
+2023-06-04 16:07:27,470:     line_bot_api = LineBotApi(os.getenv('ZXhZKlg468GHg9IjnjSEi8BHAPnrsySNFpEbFgBScxAyA0bRS9wJHEfD6lu79twWSOgJbDSYBErsxsP863sxtaJVSVuD4O6+0tzkG6NCPxQdbcO/eIMTPImKzHzLIPwKBdulvhJoSiMp3lfLpJdgaAdB04t89/1O/w1cDnyilFU='))
+2023-06-04 16:07:27,470: 
+2023-06-04 16:07:27,470:   File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/api.py", line 70, in __init__
+2023-06-04 16:07:27,470:     'Authorization': 'Bearer ' + channel_access_token,
+2023-06-04 16:07:27,470: ***************************************************
+2023-06-04 16:07:27,470: If you're seeing an import error and don't know why,
+2023-06-04 16:07:27,470: we have a dedicated help page to help you debug: 
+2023-06-04 16:07:27,470: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:07:27,470: ***************************************************
+2023-06-04 16:18:10,370: Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"458125681646895348","text":"Tongue"},"webhookEventId":"01H23K7A9H3SXZ180YQTXVF8T4","deliveryContext":{"isRedelivery":false},"timestamp":1685895489376,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"e5b32cac4e51472f84c149e7902a31ed","mode":"active"}]}
+2023-06-04 16:18:10,738: error_code=None error_message='Your request was rejected as a result of our safety system. ' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-04 16:18:10,739: Exception on /callback [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/Ciga/mysite/flask_app.py", line 72, in callback
+    handler.handle(body, signature)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 263, in handle
+    self.__invoke_func(func, event, payload)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/linebot/webhook.py", line 275, in __invoke_func
+    func(event)
+  File "/home/Ciga/mysite/flask_app.py", line 83, in handle_message
+    reply_dalle_url = dalle.get_response(user_message)
+  File "/home/Ciga/mysite/flask_app.py", line 38, in get_response
+    response = openai.Image.create(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_resources/image.py", line 36, in create
+    response, _, api_key = requestor.request(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "/home/Ciga/.local/lib/python3.10/site-packages/openai/api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: Your request was rejected as a result of our safety system. 
+2023-06-04 16:50:03,953: Error running WSGI application
+2023-06-04 16:50:03,960: ImportError: cannot import name 'app' from 'flask_app' (/home/Ciga/mysite/flask_app.py)
+2023-06-04 16:50:03,960:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:50:03,960:     from flask_app import app as application  # noqa
+2023-06-04 16:50:03,960: ***************************************************
+2023-06-04 16:50:03,961: If you're seeing an import error and don't know why,
+2023-06-04 16:50:03,961: we have a dedicated help page to help you debug: 
+2023-06-04 16:50:03,961: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:50:03,961: ***************************************************
+2023-06-04 16:50:05,507: Error running WSGI application
+2023-06-04 16:50:05,508: ImportError: cannot import name 'app' from 'flask_app' (/home/Ciga/mysite/flask_app.py)
+2023-06-04 16:50:05,508:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 16:50:05,508:     from flask_app import app as application  # noqa
+2023-06-04 16:50:05,508: ***************************************************
+2023-06-04 16:50:05,508: If you're seeing an import error and don't know why,
+2023-06-04 16:50:05,509: we have a dedicated help page to help you debug: 
+2023-06-04 16:50:05,509: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 16:50:05,509: ***************************************************
+2023-06-04 17:18:28,553: Error running WSGI application
+2023-06-04 17:18:28,554: ImportError: cannot import name 'app' from 'flask_app' (/home/Ciga/mysite/flask_app.py)
+2023-06-04 17:18:28,554:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 17:18:28,554:     from flask_app import app as application  # noqa
+2023-06-04 17:18:28,554: ***************************************************
+2023-06-04 17:18:28,554: If you're seeing an import error and don't know why,
+2023-06-04 17:18:28,554: we have a dedicated help page to help you debug: 
+2023-06-04 17:18:28,554: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 17:18:28,554: ***************************************************
+2023-06-04 18:03:40,934: Error running WSGI application
+2023-06-04 18:03:40,938: NameError: name 'e' is not defined
+2023-06-04 18:03:40,938:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 18:03:40,938:     from flask_app import app as application  # noqa
+2023-06-04 18:03:40,938: 
+2023-06-04 18:03:40,938:   File "/home/Ciga/mysite/flask_app.py", line 12, in <module>
+2023-06-04 18:03:40,939:     logging.error("发生错误：" + str(e))
+2023-06-04 18:03:40,939: ***************************************************
+2023-06-04 18:03:40,939: If you're seeing an import error and don't know why,
+2023-06-04 18:03:40,939: we have a dedicated help page to help you debug: 
+2023-06-04 18:03:40,939: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 18:03:40,939: ***************************************************
+2023-06-04 18:03:43,176: Error running WSGI application
+2023-06-04 18:03:43,176: NameError: name 'e' is not defined
+2023-06-04 18:03:43,177:   File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 18:03:43,177:     from flask_app import app as application  # noqa
+2023-06-04 18:03:43,177: 
+2023-06-04 18:03:43,177:   File "/home/Ciga/mysite/flask_app.py", line 12, in <module>
+2023-06-04 18:03:43,177:     logging.error("发生错误：" + str(e))
+2023-06-04 18:03:43,177: ***************************************************
+2023-06-04 18:03:43,177: If you're seeing an import error and don't know why,
+2023-06-04 18:03:43,178: we have a dedicated help page to help you debug: 
+2023-06-04 18:03:43,178: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 18:03:43,178: ***************************************************
+以上錯誤已是上版本前
+近版本已無報錯訊息
