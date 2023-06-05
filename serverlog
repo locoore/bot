@@ -1,0 +1,1291 @@
+2023-05-17 09:27:53 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 17 09:27:53 2023] ***
+2023-05-17 09:27:53 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-17 09:27:53 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-17 09:27:53 nodename: green-liveweb19
+2023-05-17 09:27:53 machine: x86_64
+2023-05-17 09:27:53 clock source: unix
+2023-05-17 09:27:53 pcre jit disabled
+2023-05-17 09:27:53 detected number of CPU cores: 4
+2023-05-17 09:27:53 current working directory: /home/Ciga
+2023-05-17 09:27:53 detected binary path: /usr/local/bin/uwsgi
+2023-05-17 09:27:53 *** dumping internal routing table ***
+2023-05-17 09:27:53 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-17 09:27:53 *** end of the internal routing table ***
+2023-05-17 09:27:53 chdir() to /home/Ciga/
+2023-05-17 09:27:53 your processes number limit is 128
+2023-05-17 09:27:53 your memory page size is 4096 bytes
+2023-05-17 09:27:53 detected max file descriptor number: 123456
+2023-05-17 09:27:53 building mime-types dictionary from file /etc/mime.types...
+2023-05-17 09:27:53 567 entry found
+2023-05-17 09:27:53 lock engine: pthread robust mutexes
+2023-05-17 09:27:53 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-17 09:27:53 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-17 09:27:53 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-17 09:27:53 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-17 09:27:53 Python main interpreter initialized at 0x563b2e688e60
+2023-05-17 09:27:53 your server socket listen backlog is limited to 100 connections
+2023-05-17 09:27:53 your mercy for graceful operations on workers is 60 seconds
+2023-05-17 09:27:53 setting request body buffering size to 65536 bytes
+2023-05-17 09:27:53 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-17 09:27:53 *** Operational MODE: single process ***
+2023-05-17 09:27:53 initialized 38 metrics
+2023-05-17 09:27:53 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563b2e688e60 pid: 1 (default app)
+2023-05-17 09:27:53 *** uWSGI is running in multiple interpreter mode ***
+2023-05-17 09:27:53 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-17 09:27:53 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-17 09:27:53 metrics collector thread started
+2023-05-17 09:27:53 spawned 2 offload threads for uWSGI worker 1
+2023-05-17 09:27:55 announcing my loyalty to the Emperor...
+2023-05-17 09:29:21 Wed May 17 09:29:21 2023 - received message 0 from emperor
+2023-05-17 09:29:21 SIGINT/SIGTERM received...killing workers...
+2023-05-17 09:29:22 worker 1 buried after 1 seconds
+2023-05-17 09:29:22 goodbye to uWSGI.
+2023-05-17 09:29:22 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-17 09:29:25 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 17 09:29:25 2023] ***
+2023-05-17 09:29:25 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-17 09:29:25 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-17 09:29:25 nodename: green-liveweb19
+2023-05-17 09:29:25 machine: x86_64
+2023-05-17 09:29:25 clock source: unix
+2023-05-17 09:29:25 pcre jit disabled
+2023-05-17 09:29:25 detected number of CPU cores: 4
+2023-05-17 09:29:25 current working directory: /home/Ciga
+2023-05-17 09:29:25 detected binary path: /usr/local/bin/uwsgi
+2023-05-17 09:29:25 *** dumping internal routing table ***
+2023-05-17 09:29:25 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-17 09:29:25 *** end of the internal routing table ***
+2023-05-17 09:29:25 chdir() to /home/Ciga/
+2023-05-17 09:29:25 your processes number limit is 128
+2023-05-17 09:29:25 your memory page size is 4096 bytes
+2023-05-17 09:29:25 detected max file descriptor number: 123456
+2023-05-17 09:29:25 building mime-types dictionary from file /etc/mime.types...
+2023-05-17 09:29:25 567 entry found
+2023-05-17 09:29:25 lock engine: pthread robust mutexes
+2023-05-17 09:29:25 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-17 09:29:25 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-17 09:29:25 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-17 09:29:25 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-17 09:29:25 Python main interpreter initialized at 0x56009452ae60
+2023-05-17 09:29:25 your server socket listen backlog is limited to 100 connections
+2023-05-17 09:29:25 your mercy for graceful operations on workers is 60 seconds
+2023-05-17 09:29:25 setting request body buffering size to 65536 bytes
+2023-05-17 09:29:25 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-17 09:29:25 *** Operational MODE: single process ***
+2023-05-17 09:29:25 initialized 38 metrics
+2023-05-17 09:29:25 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56009452ae60 pid: 1 (default app)
+2023-05-17 09:29:25 *** uWSGI is running in multiple interpreter mode ***
+2023-05-17 09:29:25 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-17 09:29:25 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-17 09:29:25 metrics collector thread started
+2023-05-17 09:29:25 spawned 2 offload threads for uWSGI worker 1
+2023-05-17 09:29:27 announcing my loyalty to the Emperor...
+2023-05-17 09:36:45 Wed May 17 09:36:45 2023 - received message 0 from emperor
+2023-05-17 09:36:45 SIGINT/SIGTERM received...killing workers...
+2023-05-17 09:36:46 worker 1 buried after 1 seconds
+2023-05-17 09:36:46 goodbye to uWSGI.
+2023-05-17 09:36:46 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-17 09:36:50 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 17 09:36:49 2023] ***
+2023-05-17 09:36:50 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-17 09:36:50 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-17 09:36:50 nodename: green-liveweb19
+2023-05-17 09:36:50 machine: x86_64
+2023-05-17 09:36:50 clock source: unix
+2023-05-17 09:36:50 pcre jit disabled
+2023-05-17 09:36:50 detected number of CPU cores: 4
+2023-05-17 09:36:50 current working directory: /home/Ciga
+2023-05-17 09:36:50 detected binary path: /usr/local/bin/uwsgi
+2023-05-17 09:36:50 *** dumping internal routing table ***
+2023-05-17 09:36:50 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-17 09:36:50 *** end of the internal routing table ***
+2023-05-17 09:36:50 chdir() to /home/Ciga/
+2023-05-17 09:36:50 your processes number limit is 128
+2023-05-17 09:36:50 your memory page size is 4096 bytes
+2023-05-17 09:36:50 detected max file descriptor number: 123456
+2023-05-17 09:36:50 building mime-types dictionary from file /etc/mime.types...
+2023-05-17 09:36:50 567 entry found
+2023-05-17 09:36:50 lock engine: pthread robust mutexes
+2023-05-17 09:36:50 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-17 09:36:50 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-17 09:36:50 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-17 09:36:50 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-17 09:36:50 Python main interpreter initialized at 0x560f56f8ee60
+2023-05-17 09:36:50 your server socket listen backlog is limited to 100 connections
+2023-05-17 09:36:50 your mercy for graceful operations on workers is 60 seconds
+2023-05-17 09:36:50 setting request body buffering size to 65536 bytes
+2023-05-17 09:36:50 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-17 09:36:50 *** Operational MODE: single process ***
+2023-05-17 09:36:50 initialized 38 metrics
+2023-05-17 09:36:50 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560f56f8ee60 pid: 1 (default app)
+2023-05-17 09:36:50 *** uWSGI is running in multiple interpreter mode ***
+2023-05-17 09:36:50 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-17 09:36:50 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-17 09:36:50 metrics collector thread started
+2023-05-17 09:36:50 spawned 2 offload threads for uWSGI worker 1
+2023-05-17 09:36:51 announcing my loyalty to the Emperor...
+2023-05-17 09:46:12 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[]} Signature: 75P0XC8lD+ign+hJ6ThZk5XClGeu14J4R/WHGsgAk2Q=
+2023-05-17 09:57:19 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"455478135071149925","text":"喂"},"webhookEventId":"01H0MJ913XD6HY4G0QD8E0EY78","deliveryContext":{"isRedelivery":false},"timestamp":1684317438755,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"52b2e8c32d6e445b96ca5f6d41eba8c0","mode":"active"}]} Signature: aGItYUIsBtZJgnGZkGXqkvbt91DQKFFvQP4lz25w1kc=
+2023-05-17 09:57:19 喂
+2023-05-24 07:29:41 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 07:29:40 2023] ***
+2023-05-24 07:29:41 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 07:29:41 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 07:29:41 nodename: green-liveweb19
+2023-05-24 07:29:41 machine: x86_64
+2023-05-24 07:29:41 clock source: unix
+2023-05-24 07:29:41 pcre jit disabled
+2023-05-24 07:29:41 detected number of CPU cores: 4
+2023-05-24 07:29:41 current working directory: /home/Ciga
+2023-05-24 07:29:41 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 07:29:41 *** dumping internal routing table ***
+2023-05-24 07:29:41 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 07:29:41 *** end of the internal routing table ***
+2023-05-24 07:29:41 chdir() to /home/Ciga/
+2023-05-24 07:29:41 your processes number limit is 128
+2023-05-24 07:29:41 your memory page size is 4096 bytes
+2023-05-24 07:29:41 detected max file descriptor number: 123456
+2023-05-24 07:29:41 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 07:29:41 567 entry found
+2023-05-24 07:29:41 lock engine: pthread robust mutexes
+2023-05-24 07:29:41 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 07:29:41 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 07:29:41 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 07:29:41 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 07:29:41 Python main interpreter initialized at 0x557f323f6e60
+2023-05-24 07:29:41 your server socket listen backlog is limited to 100 connections
+2023-05-24 07:29:41 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 07:29:41 setting request body buffering size to 65536 bytes
+2023-05-24 07:29:41 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 07:29:41 *** Operational MODE: single process ***
+2023-05-24 07:29:41 initialized 38 metrics
+2023-05-24 07:29:41 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557f323f6e60 pid: 1 (default app)
+2023-05-24 07:29:41 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 07:29:41 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 07:29:41 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 07:29:41 metrics collector thread started
+2023-05-24 07:29:41 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 07:29:42 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456477956481201620","text":"有嗎有嗎"},"webhookEventId":"01H16AKKQ5Z30F297YT8QQWKSS","deliveryContext":{"isRedelivery":false},"timestamp":1684913376666,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"01fa42ec1a0b4d02a7736d05beee6c83","mode":"active"}]} Signature: aYp+54j8uBkN+QB55ViOyCBzh2OINrayEVRN0G8j35s=
+2023-05-24 07:29:42 有嗎有嗎
+2023-05-24 07:29:42 Wed May 24 07:29:42 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /callback (ip 10.0.0.83) !!!
+2023-05-24 07:29:42 Wed May 24 07:29:42 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during POST /callback (10.0.0.83)
+2023-05-24 07:29:42 announcing my loyalty to the Emperor...
+2023-05-24 08:02:30 Wed May 24 08:02:30 2023 - received message 0 from emperor
+2023-05-24 08:02:30 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:02:31 worker 1 buried after 1 seconds
+2023-05-24 08:02:31 goodbye to uWSGI.
+2023-05-24 08:02:31 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:02:35 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:02:34 2023] ***
+2023-05-24 08:02:35 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:02:35 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:02:35 nodename: green-liveweb19
+2023-05-24 08:02:35 machine: x86_64
+2023-05-24 08:02:35 clock source: unix
+2023-05-24 08:02:35 pcre jit disabled
+2023-05-24 08:02:35 detected number of CPU cores: 4
+2023-05-24 08:02:35 current working directory: /home/Ciga
+2023-05-24 08:02:35 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:02:35 *** dumping internal routing table ***
+2023-05-24 08:02:35 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:02:35 *** end of the internal routing table ***
+2023-05-24 08:02:35 chdir() to /home/Ciga/
+2023-05-24 08:02:35 your processes number limit is 128
+2023-05-24 08:02:35 your memory page size is 4096 bytes
+2023-05-24 08:02:35 detected max file descriptor number: 123456
+2023-05-24 08:02:35 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:02:35 567 entry found
+2023-05-24 08:02:35 lock engine: pthread robust mutexes
+2023-05-24 08:02:35 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:02:35 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:02:35 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:02:35 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:02:35 Python main interpreter initialized at 0x55a20b10fe60
+2023-05-24 08:02:35 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:02:35 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:02:35 setting request body buffering size to 65536 bytes
+2023-05-24 08:02:35 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:02:35 *** Operational MODE: single process ***
+2023-05-24 08:02:35 initialized 38 metrics
+2023-05-24 08:02:35 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a20b10fe60 pid: 1 (default app)
+2023-05-24 08:02:35 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:02:35 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:02:35 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 08:02:35 metrics collector thread started
+2023-05-24 08:02:35 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:02:36 announcing my loyalty to the Emperor...
+2023-05-24 08:03:49 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456481395810650086","text":"hi"},"webhookEventId":"01H16CJ78210DYTTGN21GVRH2D","deliveryContext":{"isRedelivery":false},"timestamp":1684915428275,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"74600e5ed8264e429747992e7b850585","mode":"active"}]} Signature: UQ0RfBpfUEEQ0zeiN0a8QLqRXzaHgna0py5P17MH/ao=
+2023-05-24 08:03:49 hi
+2023-05-24 08:10:47 Wed May 24 08:10:47 2023 - received message 0 from emperor
+2023-05-24 08:10:47 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:10:48 worker 1 buried after 1 seconds
+2023-05-24 08:10:48 goodbye to uWSGI.
+2023-05-24 08:10:48 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:10:52 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:10:52 2023] ***
+2023-05-24 08:10:52 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:10:52 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:10:52 nodename: green-liveweb19
+2023-05-24 08:10:52 machine: x86_64
+2023-05-24 08:10:52 clock source: unix
+2023-05-24 08:10:52 pcre jit disabled
+2023-05-24 08:10:52 detected number of CPU cores: 4
+2023-05-24 08:10:52 current working directory: /home/Ciga
+2023-05-24 08:10:52 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:10:52 *** dumping internal routing table ***
+2023-05-24 08:10:52 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:10:52 *** end of the internal routing table ***
+2023-05-24 08:10:52 chdir() to /home/Ciga/
+2023-05-24 08:10:52 your processes number limit is 128
+2023-05-24 08:10:52 your memory page size is 4096 bytes
+2023-05-24 08:10:52 detected max file descriptor number: 123456
+2023-05-24 08:10:52 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:10:52 567 entry found
+2023-05-24 08:10:52 lock engine: pthread robust mutexes
+2023-05-24 08:10:52 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:10:52 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:10:52 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:10:52 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:10:52 Python main interpreter initialized at 0x55bb8534ae60
+2023-05-24 08:10:52 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:10:52 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:10:52 setting request body buffering size to 65536 bytes
+2023-05-24 08:10:52 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:10:52 *** Operational MODE: single process ***
+2023-05-24 08:10:52 initialized 38 metrics
+2023-05-24 08:10:52 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bb8534ae60 pid: 1 (default app)
+2023-05-24 08:10:52 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:10:52 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:10:52 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 08:10:52 metrics collector thread started
+2023-05-24 08:10:52 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:10:54 announcing my loyalty to the Emperor...
+2023-05-24 08:13:32 Wed May 24 08:13:32 2023 - received message 0 from emperor
+2023-05-24 08:13:32 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:13:33 worker 1 buried after 1 seconds
+2023-05-24 08:13:33 goodbye to uWSGI.
+2023-05-24 08:13:33 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:13:36 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:13:36 2023] ***
+2023-05-24 08:13:36 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:13:36 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:13:36 nodename: green-liveweb19
+2023-05-24 08:13:36 machine: x86_64
+2023-05-24 08:13:36 clock source: unix
+2023-05-24 08:13:36 pcre jit disabled
+2023-05-24 08:13:36 detected number of CPU cores: 4
+2023-05-24 08:13:36 current working directory: /home/Ciga
+2023-05-24 08:13:36 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:13:36 *** dumping internal routing table ***
+2023-05-24 08:13:36 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:13:36 *** end of the internal routing table ***
+2023-05-24 08:13:36 chdir() to /home/Ciga/
+2023-05-24 08:13:36 your processes number limit is 128
+2023-05-24 08:13:36 your memory page size is 4096 bytes
+2023-05-24 08:13:36 detected max file descriptor number: 123456
+2023-05-24 08:13:36 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:13:36 567 entry found
+2023-05-24 08:13:36 lock engine: pthread robust mutexes
+2023-05-24 08:13:36 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:13:36 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:13:36 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:13:36 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:13:36 Python main interpreter initialized at 0x55d3394a9e60
+2023-05-24 08:13:36 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:13:36 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:13:36 setting request body buffering size to 65536 bytes
+2023-05-24 08:13:36 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:13:36 *** Operational MODE: single process ***
+2023-05-24 08:13:36 initialized 38 metrics
+2023-05-24 08:13:36 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d3394a9e60 pid: 1 (default app)
+2023-05-24 08:13:36 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:13:36 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:13:36 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 08:13:36 metrics collector thread started
+2023-05-24 08:13:36 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:13:38 announcing my loyalty to the Emperor...
+2023-05-24 08:13:57 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456482419220686826","text":"Hi"},"webhookEventId":"01H16D4SF0H1KZZW3EPWW96Z6N","deliveryContext":{"isRedelivery":false},"timestamp":1684916036582,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"143e805b97a14eff9ac4a2c1ba5fc0ab","mode":"active"}]} Signature: hgwN3PDkwcF/KLoPs2NqvQXRXN7y1s2+jrebcB3Tmrs=
+2023-05-24 08:26:36 Wed May 24 08:26:36 2023 - received message 0 from emperor
+2023-05-24 08:26:36 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:26:37 worker 1 buried after 1 seconds
+2023-05-24 08:26:37 goodbye to uWSGI.
+2023-05-24 08:26:37 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:26:41 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:26:41 2023] ***
+2023-05-24 08:26:41 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:26:41 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:26:41 nodename: green-liveweb19
+2023-05-24 08:26:41 machine: x86_64
+2023-05-24 08:26:41 clock source: unix
+2023-05-24 08:26:41 pcre jit disabled
+2023-05-24 08:26:41 detected number of CPU cores: 4
+2023-05-24 08:26:41 current working directory: /home/Ciga
+2023-05-24 08:26:41 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:26:41 *** dumping internal routing table ***
+2023-05-24 08:26:41 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:26:41 *** end of the internal routing table ***
+2023-05-24 08:26:41 chdir() to /home/Ciga/
+2023-05-24 08:26:41 your processes number limit is 128
+2023-05-24 08:26:41 your memory page size is 4096 bytes
+2023-05-24 08:26:41 detected max file descriptor number: 123456
+2023-05-24 08:26:41 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:26:41 567 entry found
+2023-05-24 08:26:41 lock engine: pthread robust mutexes
+2023-05-24 08:26:41 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:26:41 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:26:41 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:26:41 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:26:41 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:26:41 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:26:41 setting request body buffering size to 65536 bytes
+2023-05-24 08:26:41 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:26:41 *** Operational MODE: single process ***
+2023-05-24 08:26:41 initialized 38 metrics
+2023-05-24 08:26:41 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5614e3461e60 pid: 1 (default app)
+2023-05-24 08:26:41 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:26:41 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:26:41 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 08:26:41 metrics collector thread started
+2023-05-24 08:26:41 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:26:49 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456483711066469920","text":"bye"},"webhookEventId":"01H16DWAZHSQXNBBPD0ER0CJ8Y","deliveryContext":{"isRedelivery":false},"timestamp":1684916808412,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"618d6e65a7e14396bcb6299dec405905","mode":"active"}]} Signature: hn1i5V57R/vqjFSGfyO6YFKuf+ND5sAmyxsRJyV4b+k=
+2023-05-24 08:26:49 bye
+2023-05-24 08:27:49 Wed May 24 08:27:49 2023 - received message 0 from emperor
+2023-05-24 08:27:49 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:27:50 worker 1 buried after 1 seconds
+2023-05-24 08:27:50 goodbye to uWSGI.
+2023-05-24 08:27:50 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:27:54 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:27:53 2023] ***
+2023-05-24 08:27:54 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:27:54 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:27:54 nodename: green-liveweb19
+2023-05-24 08:27:54 machine: x86_64
+2023-05-24 08:27:54 clock source: unix
+2023-05-24 08:27:54 pcre jit disabled
+2023-05-24 08:27:54 detected number of CPU cores: 4
+2023-05-24 08:27:54 current working directory: /home/Ciga
+2023-05-24 08:27:54 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:27:54 *** dumping internal routing table ***
+2023-05-24 08:27:54 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:27:54 *** end of the internal routing table ***
+2023-05-24 08:27:54 chdir() to /home/Ciga/
+2023-05-24 08:27:54 your processes number limit is 128
+2023-05-24 08:27:54 your memory page size is 4096 bytes
+2023-05-24 08:27:54 detected max file descriptor number: 123456
+2023-05-24 08:27:54 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:27:54 567 entry found
+2023-05-24 08:27:54 lock engine: pthread robust mutexes
+2023-05-24 08:27:54 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:27:54 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:27:54 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:27:54 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:27:54 Python main interpreter initialized at 0x5625b656ae60
+2023-05-24 08:27:54 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:27:54 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:27:54 setting request body buffering size to 65536 bytes
+2023-05-24 08:27:54 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:27:54 *** Operational MODE: single process ***
+2023-05-24 08:27:54 initialized 38 metrics
+2023-05-24 08:27:54 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5625b656ae60 pid: 1 (default app)
+2023-05-24 08:27:54 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:27:54 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:27:54 spawned uWSGI worker 1 (pid: 2, cores: 1)
+2023-05-24 08:27:54 metrics collector thread started
+2023-05-24 08:27:54 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:27:56 announcing my loyalty to the Emperor...
+2023-05-24 08:41:37 Wed May 24 08:41:37 2023 - received message 0 from emperor
+2023-05-24 08:41:37 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:41:38 worker 1 buried after 1 seconds
+2023-05-24 08:41:38 goodbye to uWSGI.
+2023-05-24 08:41:38 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:41:44 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:41:41 2023] ***
+2023-05-24 08:41:44 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:41:44 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:41:44 nodename: green-liveweb19
+2023-05-24 08:41:44 machine: x86_64
+2023-05-24 08:41:44 clock source: unix
+2023-05-24 08:41:44 pcre jit disabled
+2023-05-24 08:41:44 detected number of CPU cores: 4
+2023-05-24 08:41:44 current working directory: /home/Ciga
+2023-05-24 08:41:44 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:41:44 *** dumping internal routing table ***
+2023-05-24 08:41:44 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:41:44 *** end of the internal routing table ***
+2023-05-24 08:41:44 chdir() to /home/Ciga/
+2023-05-24 08:41:44 your processes number limit is 128
+2023-05-24 08:41:44 your memory page size is 4096 bytes
+2023-05-24 08:41:44 detected max file descriptor number: 123456
+2023-05-24 08:41:44 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:41:44 567 entry found
+2023-05-24 08:41:44 lock engine: pthread robust mutexes
+2023-05-24 08:41:44 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:41:44 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:41:44 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:41:44 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:41:44 Python main interpreter initialized at 0x563e18323e60
+2023-05-24 08:41:44 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:41:44 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:41:44 setting request body buffering size to 65536 bytes
+2023-05-24 08:41:44 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:41:44 *** Operational MODE: single process ***
+2023-05-24 08:41:44 initialized 38 metrics
+2023-05-24 08:41:44 WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x563e18323e60 pid: 1 (default app)
+2023-05-24 08:41:44 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:41:44 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:41:44 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-05-24 08:41:44 metrics collector thread started
+2023-05-24 08:41:44 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:41:44 announcing my loyalty to the Emperor...
+2023-05-24 08:41:52 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456485237792609160","text":"喂，聽得到嗎"},"webhookEventId":"01H16EQX5A5EXF625685M0ZHNA","deliveryContext":{"isRedelivery":false},"timestamp":1684917711948,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"2e76cad19dc5431c950ce921df90f1e3","mode":"active"}]} Signature: RGzRkSz670sDkfquHuFUB/oxfSoz5HRJx8GJex52oUk=
+2023-05-24 08:41:52 喂，聽得到嗎
+2023-05-24 08:51:05 Wed May 24 08:51:05 2023 - received message 0 from emperor
+2023-05-24 08:51:05 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:51:06 worker 1 buried after 1 seconds
+2023-05-24 08:51:06 goodbye to uWSGI.
+2023-05-24 08:51:06 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:51:10 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:51:09 2023] ***
+2023-05-24 08:51:10 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:51:10 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:51:10 nodename: green-liveweb19
+2023-05-24 08:51:10 machine: x86_64
+2023-05-24 08:51:10 clock source: unix
+2023-05-24 08:51:10 pcre jit disabled
+2023-05-24 08:51:10 detected number of CPU cores: 4
+2023-05-24 08:51:10 current working directory: /home/Ciga
+2023-05-24 08:51:10 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:51:10 *** dumping internal routing table ***
+2023-05-24 08:51:10 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:51:10 *** end of the internal routing table ***
+2023-05-24 08:51:10 chdir() to /home/Ciga/
+2023-05-24 08:51:10 your processes number limit is 128
+2023-05-24 08:51:10 your memory page size is 4096 bytes
+2023-05-24 08:51:10 detected max file descriptor number: 123456
+2023-05-24 08:51:10 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:51:10 567 entry found
+2023-05-24 08:51:10 lock engine: pthread robust mutexes
+2023-05-24 08:51:10 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:51:10 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:51:10 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:51:10 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:51:10 Python main interpreter initialized at 0x55f9800fce60
+2023-05-24 08:51:10 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:51:10 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:51:10 setting request body buffering size to 65536 bytes
+2023-05-24 08:51:10 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:51:10 *** Operational MODE: single process ***
+2023-05-24 08:51:10 initialized 38 metrics
+2023-05-24 08:51:10 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f9800fce60 pid: 1 (default app)
+2023-05-24 08:51:10 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:51:10 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:51:10 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-05-24 08:51:10 metrics collector thread started
+2023-05-24 08:51:10 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:51:11 announcing my loyalty to the Emperor...
+2023-05-24 08:51:19 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456486177317308331","text":"哈囉"},"webhookEventId":"01H16F977ZYKS8JDJ1XMA4X33K","deliveryContext":{"isRedelivery":false},"timestamp":1684918279144,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"7b56af0b5bfa4ff6be65c2c256db3924","mode":"active"}]} Signature: BuLZCahlkbJHZWJtDwJynb9OK9eUSxgTKM79kPNitIk=
+2023-05-24 08:51:19 哈囉
+2023-05-24 08:52:59 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456486345089418681","text":"欸"},"webhookEventId":"01H16FC87A3GRFE02RTPEAF99A","deliveryContext":{"isRedelivery":false},"timestamp":1684918378552,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"76527641fb11429a9f7d21a1a7aa6309","mode":"active"}]} Signature: 8g5EwcxhNyDRdOORnaGm7S89gXnVx1sHsXwKamy78io=
+2023-05-24 08:52:59 欸
+2023-05-24 08:54:51 Wed May 24 08:54:51 2023 - received message 0 from emperor
+2023-05-24 08:54:51 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:54:52 worker 1 buried after 1 seconds
+2023-05-24 08:54:52 goodbye to uWSGI.
+2023-05-24 08:54:52 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:54:56 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:54:55 2023] ***
+2023-05-24 08:54:56 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:54:56 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:54:56 nodename: green-liveweb19
+2023-05-24 08:54:56 machine: x86_64
+2023-05-24 08:54:56 clock source: unix
+2023-05-24 08:54:56 pcre jit disabled
+2023-05-24 08:54:56 detected number of CPU cores: 4
+2023-05-24 08:54:56 current working directory: /home/Ciga
+2023-05-24 08:54:56 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:54:56 *** dumping internal routing table ***
+2023-05-24 08:54:56 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:54:56 *** end of the internal routing table ***
+2023-05-24 08:54:56 chdir() to /home/Ciga/
+2023-05-24 08:54:56 your processes number limit is 128
+2023-05-24 08:54:56 your memory page size is 4096 bytes
+2023-05-24 08:54:56 detected max file descriptor number: 123456
+2023-05-24 08:54:56 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:54:56 567 entry found
+2023-05-24 08:54:56 lock engine: pthread robust mutexes
+2023-05-24 08:54:56 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:54:56 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:54:56 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:54:56 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:54:56 Python main interpreter initialized at 0x55c0a31a5e60
+2023-05-24 08:54:56 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:54:56 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:54:56 setting request body buffering size to 65536 bytes
+2023-05-24 08:54:56 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:54:56 *** Operational MODE: single process ***
+2023-05-24 08:54:56 initialized 38 metrics
+2023-05-24 08:54:56 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c0a31a5e60 pid: 1 (default app)
+2023-05-24 08:54:56 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:54:56 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:54:56 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-05-24 08:54:56 metrics collector thread started
+2023-05-24 08:54:56 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:54:58 announcing my loyalty to the Emperor...
+2023-05-24 08:55:02 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456486563192653737","text":"黑"},"webhookEventId":"01H16FG0S8NB7RN2VNT9Y63GY1","deliveryContext":{"isRedelivery":false},"timestamp":1684918501705,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"c4adabba161f4687a4f5a42da3f55e41","mode":"active"}]} Signature: dTED1xnlHo50WNCAHGMOG7ujdUIYqIPbF75Awt43Z8E=
+2023-05-24 08:55:02 黑
+2023-05-24 08:55:43 Wed May 24 08:55:43 2023 - received message 0 from emperor
+2023-05-24 08:55:43 SIGINT/SIGTERM received...killing workers...
+2023-05-24 08:55:44 worker 1 buried after 1 seconds
+2023-05-24 08:55:44 goodbye to uWSGI.
+2023-05-24 08:55:44 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-05-24 08:55:49 *** Starting uWSGI 2.0.20 (64bit) on [Wed May 24 08:55:48 2023] ***
+2023-05-24 08:55:49 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-05-24 08:55:49 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-05-24 08:55:49 nodename: green-liveweb19
+2023-05-24 08:55:49 machine: x86_64
+2023-05-24 08:55:49 clock source: unix
+2023-05-24 08:55:49 pcre jit disabled
+2023-05-24 08:55:49 detected number of CPU cores: 4
+2023-05-24 08:55:49 current working directory: /home/Ciga
+2023-05-24 08:55:49 detected binary path: /usr/local/bin/uwsgi
+2023-05-24 08:55:49 *** dumping internal routing table ***
+2023-05-24 08:55:49 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-05-24 08:55:49 *** end of the internal routing table ***
+2023-05-24 08:55:49 chdir() to /home/Ciga/
+2023-05-24 08:55:49 your processes number limit is 128
+2023-05-24 08:55:49 your memory page size is 4096 bytes
+2023-05-24 08:55:49 detected max file descriptor number: 123456
+2023-05-24 08:55:49 building mime-types dictionary from file /etc/mime.types...
+2023-05-24 08:55:49 567 entry found
+2023-05-24 08:55:49 lock engine: pthread robust mutexes
+2023-05-24 08:55:49 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-05-24 08:55:49 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-05-24 08:55:49 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-05-24 08:55:49 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-05-24 08:55:49 Python main interpreter initialized at 0x565077700e60
+2023-05-24 08:55:49 your server socket listen backlog is limited to 100 connections
+2023-05-24 08:55:49 your mercy for graceful operations on workers is 60 seconds
+2023-05-24 08:55:49 setting request body buffering size to 65536 bytes
+2023-05-24 08:55:49 mapped 334256 bytes (326 KB) for 1 cores
+2023-05-24 08:55:49 *** Operational MODE: single process ***
+2023-05-24 08:55:49 initialized 38 metrics
+2023-05-24 08:55:49 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x565077700e60 pid: 1 (default app)
+2023-05-24 08:55:49 *** uWSGI is running in multiple interpreter mode ***
+2023-05-24 08:55:49 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-05-24 08:55:49 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-05-24 08:55:49 metrics collector thread started
+2023-05-24 08:55:49 spawned 2 offload threads for uWSGI worker 1
+2023-05-24 08:55:50 announcing my loyalty to the Emperor...
+2023-05-24 08:55:58 Request body: {"destination":"Ucdb49c13b4d783ac66d866d35fdb75ac","events":[{"type":"message","message":{"type":"text","id":"456486647079273179","text":"哈哈"},"webhookEventId":"01H16FHQF1JFGVD7356KY9B83N","deliveryContext":{"isRedelivery":false},"timestamp":1684918558095,"source":{"type":"user","userId":"U1478ec1917735d6f49d3df17dd87b3f4"},"replyToken":"ea347733dcd5418997e014cb669a7333","mode":"active"}]} Signature: QMAMyCDcpJf05FtI0tD0+Vf3/iA9+abgyGWb8+aYtVk=
+2023-05-24 08:55:58 哈哈
+2023-05-24 08:56:07 Wed May 24 08:56:07 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /callback (ip 10.0.0.83) !!!
+2023-05-24 08:56:07 Wed May 24 08:56:07 2023 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during POST /callback (10.0.0.83)
+2023-06-04 16:04:25 Sun Jun  4 16:04:25 2023 - received message 0 from emperor
+2023-06-04 16:04:25 SIGINT/SIGTERM received...killing workers...
+2023-06-04 16:04:26 worker 1 buried after 1 seconds
+2023-06-04 16:04:26 goodbye to uWSGI.
+2023-06-04 16:04:26 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 16:04:30 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 16:04:29 2023] ***
+2023-06-04 16:04:30 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 16:04:30 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 16:04:30 nodename: green-liveweb19
+2023-06-04 16:04:30 machine: x86_64
+2023-06-04 16:04:30 clock source: unix
+2023-06-04 16:04:30 pcre jit disabled
+2023-06-04 16:04:30 detected number of CPU cores: 4
+2023-06-04 16:04:30 current working directory: /home/Ciga
+2023-06-04 16:04:30 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 16:04:30 *** dumping internal routing table ***
+2023-06-04 16:04:30 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 16:04:30 *** end of the internal routing table ***
+2023-06-04 16:04:30 chdir() to /home/Ciga/
+2023-06-04 16:04:30 your processes number limit is 128
+2023-06-04 16:04:30 your memory page size is 4096 bytes
+2023-06-04 16:04:30 detected max file descriptor number: 123456
+2023-06-04 16:04:30 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 16:04:30 567 entry found
+2023-06-04 16:04:30 lock engine: pthread robust mutexes
+2023-06-04 16:04:30 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 16:04:30 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 16:04:30 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 16:04:30 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 16:04:30 Python main interpreter initialized at 0x56523db47e60
+2023-06-04 16:04:30 your server socket listen backlog is limited to 100 connections
+2023-06-04 16:04:30 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 16:04:30 setting request body buffering size to 65536 bytes
+2023-06-04 16:04:30 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 16:04:30 *** Operational MODE: single process ***
+2023-06-04 16:04:30 initialized 38 metrics
+2023-06-04 16:04:30 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56523db47e60 pid: 1 (default app)
+2023-06-04 16:04:30 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 16:04:30 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 16:04:30 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 16:04:30 metrics collector thread started
+2023-06-04 16:04:30 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 16:04:32 announcing my loyalty to the Emperor...
+2023-06-04 16:07:17 Sun Jun  4 16:07:17 2023 - received message 0 from emperor
+2023-06-04 16:07:17 SIGINT/SIGTERM received...killing workers...
+2023-06-04 16:07:18 worker 1 buried after 1 seconds
+2023-06-04 16:07:18 goodbye to uWSGI.
+2023-06-04 16:07:18 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 16:07:22 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 16:07:21 2023] ***
+2023-06-04 16:07:22 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 16:07:22 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 16:07:22 nodename: green-liveweb19
+2023-06-04 16:07:22 machine: x86_64
+2023-06-04 16:07:22 clock source: unix
+2023-06-04 16:07:22 pcre jit disabled
+2023-06-04 16:07:22 detected number of CPU cores: 4
+2023-06-04 16:07:22 current working directory: /home/Ciga
+2023-06-04 16:07:22 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 16:07:22 *** dumping internal routing table ***
+2023-06-04 16:07:22 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 16:07:22 *** end of the internal routing table ***
+2023-06-04 16:07:22 chdir() to /home/Ciga/
+2023-06-04 16:07:22 your processes number limit is 128
+2023-06-04 16:07:22 your memory page size is 4096 bytes
+2023-06-04 16:07:22 detected max file descriptor number: 123456
+2023-06-04 16:07:22 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 16:07:22 567 entry found
+2023-06-04 16:07:22 lock engine: pthread robust mutexes
+2023-06-04 16:07:22 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 16:07:22 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 16:07:22 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 16:07:22 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 16:07:22 Python main interpreter initialized at 0x55c21ca6fe60
+2023-06-04 16:07:22 your server socket listen backlog is limited to 100 connections
+2023-06-04 16:07:22 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 16:07:22 setting request body buffering size to 65536 bytes
+2023-06-04 16:07:22 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 16:07:22 *** Operational MODE: single process ***
+2023-06-04 16:07:22 initialized 38 metrics
+2023-06-04 16:07:22 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c21ca6fe60 pid: 1 (default app)
+2023-06-04 16:07:22 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 16:07:22 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 16:07:22 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 16:07:22 metrics collector thread started
+2023-06-04 16:07:22 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 16:07:23 announcing my loyalty to the Emperor...
+2023-06-04 16:15:57 Sun Jun  4 16:15:57 2023 - received message 0 from emperor
+2023-06-04 16:15:57 SIGINT/SIGTERM received...killing workers...
+2023-06-04 16:15:58 worker 1 buried after 1 seconds
+2023-06-04 16:15:58 goodbye to uWSGI.
+2023-06-04 16:15:58 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 16:16:01 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 16:16:00 2023] ***
+2023-06-04 16:16:01 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 16:16:01 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 16:16:01 nodename: green-liveweb19
+2023-06-04 16:16:01 machine: x86_64
+2023-06-04 16:16:01 clock source: unix
+2023-06-04 16:16:01 pcre jit disabled
+2023-06-04 16:16:01 detected number of CPU cores: 4
+2023-06-04 16:16:01 current working directory: /home/Ciga
+2023-06-04 16:16:01 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 16:16:01 *** dumping internal routing table ***
+2023-06-04 16:16:01 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 16:16:01 *** end of the internal routing table ***
+2023-06-04 16:16:01 chdir() to /home/Ciga/
+2023-06-04 16:16:01 your processes number limit is 128
+2023-06-04 16:16:01 your memory page size is 4096 bytes
+2023-06-04 16:16:01 detected max file descriptor number: 123456
+2023-06-04 16:16:01 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 16:16:01 567 entry found
+2023-06-04 16:16:01 lock engine: pthread robust mutexes
+2023-06-04 16:16:01 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 16:16:01 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 16:16:01 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 16:16:01 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 16:16:01 Python main interpreter initialized at 0x560394cd2e60
+2023-06-04 16:16:01 your server socket listen backlog is limited to 100 connections
+2023-06-04 16:16:01 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 16:16:01 setting request body buffering size to 65536 bytes
+2023-06-04 16:16:01 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 16:16:01 *** Operational MODE: single process ***
+2023-06-04 16:16:01 initialized 38 metrics
+2023-06-04 16:16:01 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560394cd2e60 pid: 1 (default app)
+2023-06-04 16:16:01 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 16:16:01 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 16:16:01 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 16:16:01 metrics collector thread started
+2023-06-04 16:16:01 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 16:16:03 announcing my loyalty to the Emperor...
+2023-06-04 16:49:51 Sun Jun  4 16:49:51 2023 - received message 0 from emperor
+2023-06-04 16:49:51 SIGINT/SIGTERM received...killing workers...
+2023-06-04 16:49:52 worker 1 buried after 1 seconds
+2023-06-04 16:49:52 goodbye to uWSGI.
+2023-06-04 16:49:52 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 16:50:03 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 16:49:55 2023] ***
+2023-06-04 16:50:03 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 16:50:03 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 16:50:03 nodename: green-liveweb19
+2023-06-04 16:50:03 machine: x86_64
+2023-06-04 16:50:03 clock source: unix
+2023-06-04 16:50:03 pcre jit disabled
+2023-06-04 16:50:03 detected number of CPU cores: 4
+2023-06-04 16:50:03 current working directory: /home/Ciga
+2023-06-04 16:50:03 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 16:50:03 *** dumping internal routing table ***
+2023-06-04 16:50:03 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 16:50:03 *** end of the internal routing table ***
+2023-06-04 16:50:03 chdir() to /home/Ciga/
+2023-06-04 16:50:03 your processes number limit is 128
+2023-06-04 16:50:03 your memory page size is 4096 bytes
+2023-06-04 16:50:03 detected max file descriptor number: 123456
+2023-06-04 16:50:03 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 16:50:03 567 entry found
+2023-06-04 16:50:03 lock engine: pthread robust mutexes
+2023-06-04 16:50:03 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 16:50:03 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 16:50:03 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 16:50:03 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 16:50:03 Python main interpreter initialized at 0x55fe13131e60
+2023-06-04 16:50:03 your server socket listen backlog is limited to 100 connections
+2023-06-04 16:50:03 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 16:50:03 setting request body buffering size to 65536 bytes
+2023-06-04 16:50:03 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 16:50:03 *** Operational MODE: single process ***
+2023-06-04 16:50:03 initialized 38 metrics
+2023-06-04 16:50:03 https://oaidalleapiprodscus.blob.core.windows.net/private/org-FpPkvjyDdQmXywyW0ayKetFn/user-K5hqMSt4MThdYmojorrO3TRV/img-pTz5FCcixlW8tzVV5Imm4qEa.png?st=2023-06-04T15%3A50%3A03Z&se=2023-06-04T17%3A50%3A03Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-06-04T12%3A53%3A26Z&ske=2023-06-05T12%3A53%3A26Z&sks=b&skv=2021-08-06&sig=FgLtZc9gzsMvaedmbQaR83EbmTmiWMXzMusAqbh4cGo%3D
+2023-06-04 16:50:03 WSGI app 0 (mountpoint='') ready in 8 seconds on interpreter 0x55fe13131e60 pid: 1 (default app)
+2023-06-04 16:50:03 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 16:50:03 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 16:50:03 spawned uWSGI worker 1 (pid: 6, cores: 1)
+2023-06-04 16:50:03 metrics collector thread started
+2023-06-04 16:50:03 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 16:50:03 announcing my loyalty to the Emperor...
+2023-06-04 17:18:35 Sun Jun  4 17:18:35 2023 - received message 0 from emperor
+2023-06-04 17:18:35 SIGINT/SIGTERM received...killing workers...
+2023-06-04 17:18:36 worker 1 buried after 1 seconds
+2023-06-04 17:18:36 goodbye to uWSGI.
+2023-06-04 17:18:36 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 17:18:39 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 17:18:38 2023] ***
+2023-06-04 17:18:39 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 17:18:39 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 17:18:39 nodename: green-liveweb19
+2023-06-04 17:18:39 machine: x86_64
+2023-06-04 17:18:39 clock source: unix
+2023-06-04 17:18:39 pcre jit disabled
+2023-06-04 17:18:39 detected number of CPU cores: 4
+2023-06-04 17:18:39 current working directory: /home/Ciga
+2023-06-04 17:18:39 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 17:18:39 *** dumping internal routing table ***
+2023-06-04 17:18:39 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 17:18:39 *** end of the internal routing table ***
+2023-06-04 17:18:39 chdir() to /home/Ciga/
+2023-06-04 17:18:39 your processes number limit is 128
+2023-06-04 17:18:39 your memory page size is 4096 bytes
+2023-06-04 17:18:39 detected max file descriptor number: 123456
+2023-06-04 17:18:39 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 17:18:39 567 entry found
+2023-06-04 17:18:39 lock engine: pthread robust mutexes
+2023-06-04 17:18:39 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 17:18:39 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 17:18:39 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 17:18:39 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 17:18:39 Python main interpreter initialized at 0x55746dc27e60
+2023-06-04 17:18:39 your server socket listen backlog is limited to 100 connections
+2023-06-04 17:18:39 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 17:18:39 setting request body buffering size to 65536 bytes
+2023-06-04 17:18:39 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 17:18:39 *** Operational MODE: single process ***
+2023-06-04 17:18:39 initialized 38 metrics
+2023-06-04 17:18:39 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55746dc27e60 pid: 1 (default app)
+2023-06-04 17:18:39 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 17:18:39 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 17:18:39 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 17:18:39 metrics collector thread started
+2023-06-04 17:18:39 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 17:18:41 announcing my loyalty to the Emperor...
+2023-06-04 17:32:14 Sun Jun  4 17:32:14 2023 - received message 0 from emperor
+2023-06-04 17:32:14 SIGINT/SIGTERM received...killing workers...
+2023-06-04 17:32:15 worker 1 buried after 1 seconds
+2023-06-04 17:32:15 goodbye to uWSGI.
+2023-06-04 17:32:15 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 17:32:20 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 17:32:19 2023] ***
+2023-06-04 17:32:20 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 17:32:20 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 17:32:20 nodename: green-liveweb19
+2023-06-04 17:32:20 machine: x86_64
+2023-06-04 17:32:20 clock source: unix
+2023-06-04 17:32:20 pcre jit disabled
+2023-06-04 17:32:20 detected number of CPU cores: 4
+2023-06-04 17:32:20 current working directory: /home/Ciga
+2023-06-04 17:32:20 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 17:32:20 *** dumping internal routing table ***
+2023-06-04 17:32:20 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 17:32:20 *** end of the internal routing table ***
+2023-06-04 17:32:20 chdir() to /home/Ciga/
+2023-06-04 17:32:20 your processes number limit is 128
+2023-06-04 17:32:20 your memory page size is 4096 bytes
+2023-06-04 17:32:20 detected max file descriptor number: 123456
+2023-06-04 17:32:20 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 17:32:20 567 entry found
+2023-06-04 17:32:20 lock engine: pthread robust mutexes
+2023-06-04 17:32:20 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 17:32:20 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 17:32:20 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 17:32:20 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 17:32:20 Python main interpreter initialized at 0x55b00cbb9e60
+2023-06-04 17:32:20 your server socket listen backlog is limited to 100 connections
+2023-06-04 17:32:20 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 17:32:20 setting request body buffering size to 65536 bytes
+2023-06-04 17:32:20 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 17:32:20 *** Operational MODE: single process ***
+2023-06-04 17:32:20 initialized 38 metrics
+2023-06-04 17:32:20 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b00cbb9e60 pid: 1 (default app)
+2023-06-04 17:32:20 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 17:32:20 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 17:32:20 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 17:32:20 metrics collector thread started
+2023-06-04 17:32:20 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 17:32:21 announcing my loyalty to the Emperor...
+2023-06-04 17:54:02 Sun Jun  4 17:54:02 2023 - received message 0 from emperor
+2023-06-04 17:54:02 SIGINT/SIGTERM received...killing workers...
+2023-06-04 17:54:03 worker 1 buried after 1 seconds
+2023-06-04 17:54:03 goodbye to uWSGI.
+2023-06-04 17:54:03 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 17:54:06 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 17:54:05 2023] ***
+2023-06-04 17:54:06 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 17:54:06 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 17:54:06 nodename: green-liveweb19
+2023-06-04 17:54:06 machine: x86_64
+2023-06-04 17:54:06 clock source: unix
+2023-06-04 17:54:06 pcre jit disabled
+2023-06-04 17:54:06 detected number of CPU cores: 4
+2023-06-04 17:54:06 current working directory: /home/Ciga
+2023-06-04 17:54:06 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 17:54:06 *** dumping internal routing table ***
+2023-06-04 17:54:06 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 17:54:06 *** end of the internal routing table ***
+2023-06-04 17:54:06 chdir() to /home/Ciga/
+2023-06-04 17:54:06 your processes number limit is 128
+2023-06-04 17:54:06 your memory page size is 4096 bytes
+2023-06-04 17:54:06 detected max file descriptor number: 123456
+2023-06-04 17:54:06 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 17:54:06 567 entry found
+2023-06-04 17:54:06 lock engine: pthread robust mutexes
+2023-06-04 17:54:06 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 17:54:06 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 17:54:06 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 17:54:06 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 17:54:06 Python main interpreter initialized at 0x557f3f4a8e60
+2023-06-04 17:54:06 your server socket listen backlog is limited to 100 connections
+2023-06-04 17:54:06 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 17:54:06 setting request body buffering size to 65536 bytes
+2023-06-04 17:54:06 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 17:54:06 *** Operational MODE: single process ***
+2023-06-04 17:54:06 initialized 38 metrics
+2023-06-04 17:54:06 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557f3f4a8e60 pid: 1 (default app)
+2023-06-04 17:54:06 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 17:54:06 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 17:54:06 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 17:54:06 metrics collector thread started
+2023-06-04 17:54:06 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 17:54:08 announcing my loyalty to the Emperor...
+2023-06-04 18:03:34 Sun Jun  4 18:03:34 2023 - received message 0 from emperor
+2023-06-04 18:03:34 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:03:35 worker 1 buried after 1 seconds
+2023-06-04 18:03:35 goodbye to uWSGI.
+2023-06-04 18:03:35 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:03:39 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:03:38 2023] ***
+2023-06-04 18:03:39 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:03:39 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:03:39 nodename: green-liveweb19
+2023-06-04 18:03:39 machine: x86_64
+2023-06-04 18:03:39 clock source: unix
+2023-06-04 18:03:39 pcre jit disabled
+2023-06-04 18:03:39 detected number of CPU cores: 4
+2023-06-04 18:03:39 current working directory: /home/Ciga
+2023-06-04 18:03:39 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:03:39 *** dumping internal routing table ***
+2023-06-04 18:03:39 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:03:39 *** end of the internal routing table ***
+2023-06-04 18:03:39 chdir() to /home/Ciga/
+2023-06-04 18:03:39 your processes number limit is 128
+2023-06-04 18:03:39 your memory page size is 4096 bytes
+2023-06-04 18:03:39 detected max file descriptor number: 123456
+2023-06-04 18:03:39 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:03:39 567 entry found
+2023-06-04 18:03:39 lock engine: pthread robust mutexes
+2023-06-04 18:03:39 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:03:39 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:03:39 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:03:39 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:03:39 Python main interpreter initialized at 0x55a57a580e60
+2023-06-04 18:03:39 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:03:39 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:03:39 setting request body buffering size to 65536 bytes
+2023-06-04 18:03:39 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:03:39 *** Operational MODE: single process ***
+2023-06-04 18:03:39 initialized 38 metrics
+2023-06-04 18:03:39 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a57a580e60 pid: 1 (default app)
+2023-06-04 18:03:39 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:03:39 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:03:39 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:03:39 metrics collector thread started
+2023-06-04 18:03:39 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:03:40 ERROR:root:Error running WSGI application
+2023-06-04 18:03:40 ERROR:root:NameError: name 'e' is not defined
+2023-06-04 18:03:40 ERROR:root:  File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 18:03:40 ERROR:root:    from flask_app import app as application  # noqa
+2023-06-04 18:03:40 ERROR:root:
+2023-06-04 18:03:40 ERROR:root:  File "/home/Ciga/mysite/flask_app.py", line 12, in <module>
+2023-06-04 18:03:40 ERROR:root:    logging.error("发生错误：" + str(e))
+2023-06-04 18:03:40 ERROR:root:***************************************************
+2023-06-04 18:03:40 ERROR:root:If you're seeing an import error and don't know why,
+2023-06-04 18:03:40 ERROR:root:we have a dedicated help page to help you debug: 
+2023-06-04 18:03:40 ERROR:root:https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 18:03:40 ERROR:root:***************************************************
+2023-06-04 18:03:40 announcing my loyalty to the Emperor...
+2023-06-04 18:03:43 ERROR:root:Error running WSGI application
+2023-06-04 18:03:43 ERROR:root:NameError: name 'e' is not defined
+2023-06-04 18:03:43 ERROR:root:  File "/var/www/ciga_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-06-04 18:03:43 ERROR:root:    from flask_app import app as application  # noqa
+2023-06-04 18:03:43 ERROR:root:
+2023-06-04 18:03:43 ERROR:root:  File "/home/Ciga/mysite/flask_app.py", line 12, in <module>
+2023-06-04 18:03:43 ERROR:root:    logging.error("发生错误：" + str(e))
+2023-06-04 18:03:43 ERROR:root:***************************************************
+2023-06-04 18:03:43 ERROR:root:If you're seeing an import error and don't know why,
+2023-06-04 18:03:43 ERROR:root:we have a dedicated help page to help you debug: 
+2023-06-04 18:03:43 ERROR:root:https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-06-04 18:03:43 ERROR:root:***************************************************
+2023-06-04 18:04:10 Sun Jun  4 18:04:10 2023 - received message 0 from emperor
+2023-06-04 18:04:10 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:04:11 worker 1 buried after 1 seconds
+2023-06-04 18:04:11 goodbye to uWSGI.
+2023-06-04 18:04:11 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:04:14 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:04:13 2023] ***
+2023-06-04 18:04:14 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:04:14 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:04:14 nodename: green-liveweb19
+2023-06-04 18:04:14 machine: x86_64
+2023-06-04 18:04:14 clock source: unix
+2023-06-04 18:04:14 pcre jit disabled
+2023-06-04 18:04:14 detected number of CPU cores: 4
+2023-06-04 18:04:14 current working directory: /home/Ciga
+2023-06-04 18:04:14 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:04:14 *** dumping internal routing table ***
+2023-06-04 18:04:14 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:04:14 *** end of the internal routing table ***
+2023-06-04 18:04:14 chdir() to /home/Ciga/
+2023-06-04 18:04:14 your processes number limit is 128
+2023-06-04 18:04:14 your memory page size is 4096 bytes
+2023-06-04 18:04:14 detected max file descriptor number: 123456
+2023-06-04 18:04:14 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:04:14 567 entry found
+2023-06-04 18:04:14 lock engine: pthread robust mutexes
+2023-06-04 18:04:14 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:04:14 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:04:14 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:04:14 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:04:14 Python main interpreter initialized at 0x55d4d2b2be60
+2023-06-04 18:04:14 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:04:14 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:04:14 setting request body buffering size to 65536 bytes
+2023-06-04 18:04:14 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:04:14 *** Operational MODE: single process ***
+2023-06-04 18:04:14 initialized 38 metrics
+2023-06-04 18:04:14 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d4d2b2be60 pid: 1 (default app)
+2023-06-04 18:04:14 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:04:14 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:04:14 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:04:14 metrics collector thread started
+2023-06-04 18:04:14 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:04:16 announcing my loyalty to the Emperor...
+2023-06-04 18:06:14 Sun Jun  4 18:06:14 2023 - received message 0 from emperor
+2023-06-04 18:06:14 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:06:15 worker 1 buried after 1 seconds
+2023-06-04 18:06:15 goodbye to uWSGI.
+2023-06-04 18:06:15 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:06:18 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:06:17 2023] ***
+2023-06-04 18:06:18 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:06:18 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:06:18 nodename: green-liveweb19
+2023-06-04 18:06:18 machine: x86_64
+2023-06-04 18:06:18 clock source: unix
+2023-06-04 18:06:18 pcre jit disabled
+2023-06-04 18:06:18 detected number of CPU cores: 4
+2023-06-04 18:06:18 current working directory: /home/Ciga
+2023-06-04 18:06:18 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:06:18 *** dumping internal routing table ***
+2023-06-04 18:06:18 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:06:18 *** end of the internal routing table ***
+2023-06-04 18:06:18 chdir() to /home/Ciga/
+2023-06-04 18:06:18 your processes number limit is 128
+2023-06-04 18:06:18 your memory page size is 4096 bytes
+2023-06-04 18:06:18 detected max file descriptor number: 123456
+2023-06-04 18:06:18 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:06:18 567 entry found
+2023-06-04 18:06:18 lock engine: pthread robust mutexes
+2023-06-04 18:06:18 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:06:18 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:06:18 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:06:18 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:06:18 Python main interpreter initialized at 0x56007a846e60
+2023-06-04 18:06:18 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:06:18 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:06:18 setting request body buffering size to 65536 bytes
+2023-06-04 18:06:18 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:06:18 *** Operational MODE: single process ***
+2023-06-04 18:06:18 initialized 38 metrics
+2023-06-04 18:06:18 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56007a846e60 pid: 1 (default app)
+2023-06-04 18:06:18 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:06:18 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:06:18 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:06:18 metrics collector thread started
+2023-06-04 18:06:18 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:06:20 announcing my loyalty to the Emperor...
+2023-06-04 18:12:22 Sun Jun  4 18:12:22 2023 - received message 0 from emperor
+2023-06-04 18:12:22 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:12:23 worker 1 buried after 1 seconds
+2023-06-04 18:12:23 goodbye to uWSGI.
+2023-06-04 18:12:23 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:12:27 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:12:26 2023] ***
+2023-06-04 18:12:27 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:12:27 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:12:27 nodename: green-liveweb19
+2023-06-04 18:12:27 machine: x86_64
+2023-06-04 18:12:27 clock source: unix
+2023-06-04 18:12:27 pcre jit disabled
+2023-06-04 18:12:27 detected number of CPU cores: 4
+2023-06-04 18:12:27 current working directory: /home/Ciga
+2023-06-04 18:12:27 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:12:27 *** dumping internal routing table ***
+2023-06-04 18:12:27 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:12:27 *** end of the internal routing table ***
+2023-06-04 18:12:27 chdir() to /home/Ciga/
+2023-06-04 18:12:27 your processes number limit is 128
+2023-06-04 18:12:27 your memory page size is 4096 bytes
+2023-06-04 18:12:27 detected max file descriptor number: 123456
+2023-06-04 18:12:27 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:12:27 567 entry found
+2023-06-04 18:12:27 lock engine: pthread robust mutexes
+2023-06-04 18:12:27 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:12:27 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:12:27 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:12:27 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:12:27 Python main interpreter initialized at 0x55c592c5ae60
+2023-06-04 18:12:27 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:12:27 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:12:27 setting request body buffering size to 65536 bytes
+2023-06-04 18:12:27 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:12:27 *** Operational MODE: single process ***
+2023-06-04 18:12:27 initialized 38 metrics
+2023-06-04 18:12:27 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c592c5ae60 pid: 1 (default app)
+2023-06-04 18:12:27 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:12:27 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:12:27 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:12:27 metrics collector thread started
+2023-06-04 18:12:27 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:12:29 announcing my loyalty to the Emperor...
+2023-06-04 18:14:57 Sun Jun  4 18:14:57 2023 - received message 0 from emperor
+2023-06-04 18:14:57 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:14:58 worker 1 buried after 1 seconds
+2023-06-04 18:14:58 goodbye to uWSGI.
+2023-06-04 18:14:58 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:15:01 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:15:00 2023] ***
+2023-06-04 18:15:01 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:15:01 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:15:01 nodename: green-liveweb19
+2023-06-04 18:15:01 machine: x86_64
+2023-06-04 18:15:01 clock source: unix
+2023-06-04 18:15:01 pcre jit disabled
+2023-06-04 18:15:01 detected number of CPU cores: 4
+2023-06-04 18:15:01 current working directory: /home/Ciga
+2023-06-04 18:15:01 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:15:01 *** dumping internal routing table ***
+2023-06-04 18:15:01 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:15:01 *** end of the internal routing table ***
+2023-06-04 18:15:01 chdir() to /home/Ciga/
+2023-06-04 18:15:01 your processes number limit is 128
+2023-06-04 18:15:01 your memory page size is 4096 bytes
+2023-06-04 18:15:01 detected max file descriptor number: 123456
+2023-06-04 18:15:01 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:15:01 567 entry found
+2023-06-04 18:15:01 lock engine: pthread robust mutexes
+2023-06-04 18:15:01 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:15:01 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:15:01 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:15:01 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:15:01 Python main interpreter initialized at 0x561438391e60
+2023-06-04 18:15:01 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:15:01 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:15:01 setting request body buffering size to 65536 bytes
+2023-06-04 18:15:01 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:15:01 *** Operational MODE: single process ***
+2023-06-04 18:15:01 initialized 38 metrics
+2023-06-04 18:15:01 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561438391e60 pid: 1 (default app)
+2023-06-04 18:15:01 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:15:01 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:15:01 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:15:01 metrics collector thread started
+2023-06-04 18:15:01 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:15:03 announcing my loyalty to the Emperor...
+2023-06-04 18:34:13 Sun Jun  4 18:34:13 2023 - received message 0 from emperor
+2023-06-04 18:34:13 SIGINT/SIGTERM received...killing workers...
+2023-06-04 18:34:14 worker 1 buried after 1 seconds
+2023-06-04 18:34:14 goodbye to uWSGI.
+2023-06-04 18:34:14 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-04 18:34:17 *** Starting uWSGI 2.0.20 (64bit) on [Sun Jun  4 18:34:16 2023] ***
+2023-06-04 18:34:17 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-04 18:34:17 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-04 18:34:17 nodename: green-liveweb19
+2023-06-04 18:34:17 machine: x86_64
+2023-06-04 18:34:17 clock source: unix
+2023-06-04 18:34:17 pcre jit disabled
+2023-06-04 18:34:17 detected number of CPU cores: 4
+2023-06-04 18:34:17 current working directory: /home/Ciga
+2023-06-04 18:34:17 detected binary path: /usr/local/bin/uwsgi
+2023-06-04 18:34:17 *** dumping internal routing table ***
+2023-06-04 18:34:17 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-04 18:34:17 *** end of the internal routing table ***
+2023-06-04 18:34:17 chdir() to /home/Ciga/
+2023-06-04 18:34:17 your processes number limit is 128
+2023-06-04 18:34:17 your memory page size is 4096 bytes
+2023-06-04 18:34:17 detected max file descriptor number: 123456
+2023-06-04 18:34:17 building mime-types dictionary from file /etc/mime.types...
+2023-06-04 18:34:17 567 entry found
+2023-06-04 18:34:17 lock engine: pthread robust mutexes
+2023-06-04 18:34:17 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-04 18:34:17 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-04 18:34:17 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-04 18:34:17 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-04 18:34:17 Python main interpreter initialized at 0x557818f93e60
+2023-06-04 18:34:17 your server socket listen backlog is limited to 100 connections
+2023-06-04 18:34:17 your mercy for graceful operations on workers is 60 seconds
+2023-06-04 18:34:17 setting request body buffering size to 65536 bytes
+2023-06-04 18:34:17 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-04 18:34:17 *** Operational MODE: single process ***
+2023-06-04 18:34:17 initialized 38 metrics
+2023-06-04 18:34:17 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557818f93e60 pid: 1 (default app)
+2023-06-04 18:34:17 *** uWSGI is running in multiple interpreter mode ***
+2023-06-04 18:34:17 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-04 18:34:17 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-04 18:34:17 metrics collector thread started
+2023-06-04 18:34:17 spawned 2 offload threads for uWSGI worker 1
+2023-06-04 18:34:19 announcing my loyalty to the Emperor...
+2023-06-05 03:10:55 Mon Jun  5 03:10:55 2023 - received message 0 from emperor
+2023-06-05 03:10:55 SIGINT/SIGTERM received...killing workers...
+2023-06-05 03:10:56 worker 1 buried after 1 seconds
+2023-06-05 03:10:56 goodbye to uWSGI.
+2023-06-05 03:10:56 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-05 03:11:00 *** Starting uWSGI 2.0.20 (64bit) on [Mon Jun  5 03:10:59 2023] ***
+2023-06-05 03:11:00 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-05 03:11:00 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-05 03:11:00 nodename: green-liveweb19
+2023-06-05 03:11:00 machine: x86_64
+2023-06-05 03:11:00 clock source: unix
+2023-06-05 03:11:00 pcre jit disabled
+2023-06-05 03:11:00 detected number of CPU cores: 4
+2023-06-05 03:11:00 current working directory: /home/Ciga
+2023-06-05 03:11:00 detected binary path: /usr/local/bin/uwsgi
+2023-06-05 03:11:00 *** dumping internal routing table ***
+2023-06-05 03:11:00 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-05 03:11:00 *** end of the internal routing table ***
+2023-06-05 03:11:00 chdir() to /home/Ciga/
+2023-06-05 03:11:00 your processes number limit is 128
+2023-06-05 03:11:00 your memory page size is 4096 bytes
+2023-06-05 03:11:00 detected max file descriptor number: 123456
+2023-06-05 03:11:00 building mime-types dictionary from file /etc/mime.types...
+2023-06-05 03:11:00 567 entry found
+2023-06-05 03:11:00 lock engine: pthread robust mutexes
+2023-06-05 03:11:00 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-05 03:11:00 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-05 03:11:00 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-05 03:11:00 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-05 03:11:00 Python main interpreter initialized at 0x55bd0aa62e60
+2023-06-05 03:11:00 your server socket listen backlog is limited to 100 connections
+2023-06-05 03:11:00 your mercy for graceful operations on workers is 60 seconds
+2023-06-05 03:11:00 setting request body buffering size to 65536 bytes
+2023-06-05 03:11:00 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-05 03:11:00 *** Operational MODE: single process ***
+2023-06-05 03:11:00 initialized 38 metrics
+2023-06-05 03:11:00 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bd0aa62e60 pid: 1 (default app)
+2023-06-05 03:11:00 *** uWSGI is running in multiple interpreter mode ***
+2023-06-05 03:11:00 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-05 03:11:00 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-05 03:11:00 metrics collector thread started
+2023-06-05 03:11:00 spawned 2 offload threads for uWSGI worker 1
+2023-06-05 03:11:02 announcing my loyalty to the Emperor...
+2023-06-05 03:13:36 Mon Jun  5 03:13:36 2023 - received message 0 from emperor
+2023-06-05 03:13:36 SIGINT/SIGTERM received...killing workers...
+2023-06-05 03:13:37 worker 1 buried after 1 seconds
+2023-06-05 03:13:37 goodbye to uWSGI.
+2023-06-05 03:13:37 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-05 03:13:41 *** Starting uWSGI 2.0.20 (64bit) on [Mon Jun  5 03:13:40 2023] ***
+2023-06-05 03:13:41 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-05 03:13:41 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-05 03:13:41 nodename: green-liveweb19
+2023-06-05 03:13:41 machine: x86_64
+2023-06-05 03:13:41 clock source: unix
+2023-06-05 03:13:41 pcre jit disabled
+2023-06-05 03:13:41 detected number of CPU cores: 4
+2023-06-05 03:13:41 current working directory: /home/Ciga
+2023-06-05 03:13:41 detected binary path: /usr/local/bin/uwsgi
+2023-06-05 03:13:41 *** dumping internal routing table ***
+2023-06-05 03:13:41 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-05 03:13:41 *** end of the internal routing table ***
+2023-06-05 03:13:41 chdir() to /home/Ciga/
+2023-06-05 03:13:41 your processes number limit is 128
+2023-06-05 03:13:41 your memory page size is 4096 bytes
+2023-06-05 03:13:41 detected max file descriptor number: 123456
+2023-06-05 03:13:41 building mime-types dictionary from file /etc/mime.types...
+2023-06-05 03:13:41 567 entry found
+2023-06-05 03:13:41 lock engine: pthread robust mutexes
+2023-06-05 03:13:41 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-05 03:13:41 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-05 03:13:41 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-05 03:13:41 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-05 03:13:41 Python main interpreter initialized at 0x5621aaf2fe60
+2023-06-05 03:13:41 your server socket listen backlog is limited to 100 connections
+2023-06-05 03:13:41 your mercy for graceful operations on workers is 60 seconds
+2023-06-05 03:13:41 setting request body buffering size to 65536 bytes
+2023-06-05 03:13:41 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-05 03:13:41 *** Operational MODE: single process ***
+2023-06-05 03:13:41 initialized 38 metrics
+2023-06-05 03:13:41 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5621aaf2fe60 pid: 1 (default app)
+2023-06-05 03:13:41 *** uWSGI is running in multiple interpreter mode ***
+2023-06-05 03:13:41 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-05 03:13:41 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-05 03:13:41 metrics collector thread started
+2023-06-05 03:13:41 spawned 2 offload threads for uWSGI worker 1
+2023-06-05 03:13:42 announcing my loyalty to the Emperor...
+2023-06-05 03:14:06 Entering callback() function
+2023-06-05 03:16:51 Entering callback() function
+2023-06-05 03:18:28 Entering callback() function
+2023-06-05 03:18:30 Entering callback() function
+2023-06-05 03:20:06 Mon Jun  5 03:20:06 2023 - received message 0 from emperor
+2023-06-05 03:20:06 SIGINT/SIGTERM received...killing workers...
+2023-06-05 03:20:07 worker 1 buried after 1 seconds
+2023-06-05 03:20:07 goodbye to uWSGI.
+2023-06-05 03:20:07 VACUUM: unix socket /var/sockets/ciga.pythonanywhere.com/socket removed.
+2023-06-05 03:20:11 *** Starting uWSGI 2.0.20 (64bit) on [Mon Jun  5 03:20:11 2023] ***
+2023-06-05 03:20:11 compiled with version: 9.4.0 on 22 July 2022 18:35:26
+2023-06-05 03:20:11 os: Linux-5.15.0-1021-aws #25~20.04.1-Ubuntu SMP Thu Sep 22 13:59:08 UTC 2022
+2023-06-05 03:20:11 nodename: green-liveweb19
+2023-06-05 03:20:11 machine: x86_64
+2023-06-05 03:20:11 clock source: unix
+2023-06-05 03:20:11 pcre jit disabled
+2023-06-05 03:20:11 detected number of CPU cores: 4
+2023-06-05 03:20:11 current working directory: /home/Ciga
+2023-06-05 03:20:11 detected binary path: /usr/local/bin/uwsgi
+2023-06-05 03:20:11 *** dumping internal routing table ***
+2023-06-05 03:20:11 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2023-06-05 03:20:11 *** end of the internal routing table ***
+2023-06-05 03:20:11 chdir() to /home/Ciga/
+2023-06-05 03:20:11 your processes number limit is 128
+2023-06-05 03:20:11 your memory page size is 4096 bytes
+2023-06-05 03:20:11 detected max file descriptor number: 123456
+2023-06-05 03:20:11 building mime-types dictionary from file /etc/mime.types...
+2023-06-05 03:20:11 567 entry found
+2023-06-05 03:20:11 lock engine: pthread robust mutexes
+2023-06-05 03:20:11 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-06-05 03:20:11 uwsgi socket 0 bound to UNIX address /var/sockets/ciga.pythonanywhere.com/socket fd 3
+2023-06-05 03:20:11 Python version: 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0]
+2023-06-05 03:20:11 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2023-06-05 03:20:11 Python main interpreter initialized at 0x559eb2449e60
+2023-06-05 03:20:11 your server socket listen backlog is limited to 100 connections
+2023-06-05 03:20:11 your mercy for graceful operations on workers is 60 seconds
+2023-06-05 03:20:11 setting request body buffering size to 65536 bytes
+2023-06-05 03:20:11 mapped 334256 bytes (326 KB) for 1 cores
+2023-06-05 03:20:11 *** Operational MODE: single process ***
+2023-06-05 03:20:11 initialized 38 metrics
+2023-06-05 03:20:11 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559eb2449e60 pid: 1 (default app)
+2023-06-05 03:20:11 *** uWSGI is running in multiple interpreter mode ***
+2023-06-05 03:20:11 gracefully (RE)spawned uWSGI master process (pid: 1)
+2023-06-05 03:20:11 spawned uWSGI worker 1 (pid: 5, cores: 1)
+2023-06-05 03:20:11 metrics collector thread started
+2023-06-05 03:20:11 spawned 2 offload threads for uWSGI worker 1
+2023-06-05 03:20:13 announcing my loyalty to the Emperor...
+2023-06-05 03:21:24 Entering callback() function
+2023-06-05 03:21:25 Entering callback() function
+2023-06-05 03:21:29 Entering callback() function
